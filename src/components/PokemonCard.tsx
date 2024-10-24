@@ -1,11 +1,13 @@
- interface pokemon {
+ interface Pokemon {
+
+        name: string,
+        imgSrc?: string,
+
     
-    name: "string",
-    imgSrc?: "string",
   }
    
 
-function PokemonCard({pokemon}) {
+function PokemonCard({pokemon}: Pokemon) {
     
     
     return ( 
